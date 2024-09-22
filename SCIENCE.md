@@ -15,16 +15,18 @@ Descreva o modelo de machine learning ou deep learning que será utilizado para 
 ## 3. Justificativa da Escolha do Modelo
 Explique por que esse modelo foi escolhido em detrimento de outros.
 Liste as vantagens e desvantagens do modelo no contexto do projeto educacional.
+
 **Exemplo**: O FaceNet foi escolhido por sua capacidade de realizar comparações entre faces com uma alta taxa de acurácia, mesmo em situações com variações de iluminação e angulação.
 
 ## 4. Arquitetura e Hiperparâmetros
 Detalhe a arquitetura do modelo (número de camadas, funções de ativação, etc.).
 Explique os principais hiperparâmetros e como eles foram configurados (learning rate, batch size, epochs, etc.).
+
 **Exemplo**: A arquitetura ResNet-50 foi usada, composta por 50 camadas, com uma função de ativação ReLU e o otimizador Adam. Os hiperparâmetros escolhidos foram:
 
 - Learning Rate: 0.001
 - Batch Size: 32
-- Epochs: 100_
+- Epochs: 100
 
 ## 5. Conjunto de Dados
 Descreva o conjunto de dados utilizado para treinar e testar o modelo.
@@ -48,12 +50,17 @@ Apresente os resultados obtidos nos testes.
 - Precisão
 - Recall
 - F1-Score
+
 Os resultados preliminares no conjunto de validação foram uma acurácia de 95% e um F1-Score de 0.92.
 
 ## 8. Discussão e Melhorias Futuras
 Discuta os desafios encontrados durante o desenvolvimento e possíveis melhorias para futuras iterações.
 Sugira abordagens alternativas ou ajustes no modelo, caso necessário.
+
 **Exemplo**: Apesar dos bons resultados, o modelo apresentou dificuldades em lidar com imagens capturadas em ambientes com pouca luz. Para a próxima iteração, consideraremos técnicas de augmentação de dados específicas para melhorar o reconhecimento em condições de baixa iluminação.
+
+### 8.1. Diário de Bordo / Log de Alterações
+Documente cada iteração ou mudança significativa no modelo, explicando o que foi feito e o porquê. Isso ajudará a manter um histórico claro e permitirá que qualquer colaborador entenda as decisões tomadas ao longo do tempo.
 
 ## 9. Referências
 Inclua qualquer material de referência que foi utilizado para embasar o desenvolvimento e a escolha do modelo.
