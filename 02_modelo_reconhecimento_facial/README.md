@@ -44,7 +44,9 @@ Os dados estão organizados da seguinte forma:
 3. Baixe os dados pré-processados e coloque-os na pasta `data` conforme descrito acima.
 
 4. Execute o treinamento do modelo:
+```bash
     python train_model.py
+```
 
 ## Contribuição
 Contribuições são bem-vindas! Por favor, crie um pull request ou abra uma issue para discutir quaisquer melhorias ou sugestões.
@@ -53,9 +55,8 @@ Contribuições são bem-vindas! Por favor, crie um pull request ou abra uma iss
 Este projeto está licenciado sob a Licença MIT.
 
 ### Detalhes:
-
-- O link para o download dos dados pré-processados em "Download Pre-processed Data" deve ser substituído por um link real, onde os dados estarão disponíveis.
-- O arquivo também inclui um resumo das etapas de pré-processamento e instruções sobre como baixar e integrar os dados no projeto.
+- O arquivo agora explica que os dados pré-processados não serão fornecidos e inclui orientações sobre como os usuários podem realizar o pré-processamento por conta própria.
+- Um exemplo de script básico em Python foi adicionado para auxiliar no redimensionamento e organização das imagens.
 
 
 
