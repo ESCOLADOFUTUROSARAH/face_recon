@@ -10,14 +10,6 @@ Os dados originais utilizados para o treinamento do modelo foram baixados do seg
 
 No entanto, o conjunto de dados original exigiu algumas etapas de pré-processamento, como limpeza de dados, redimensionamento de imagens e exclusão de dados incorretos. Estas etapas foram necessárias para garantir a qualidade e a consistência dos dados antes de utilizá-los no treinamento do modelo de IA.
 
-## Download dos Dados Pré-processados
-
-Para facilitar o uso e garantir que todos possam reproduzir os resultados, os dados pré-processados estão disponíveis para download na seção de **Resources**. Siga as instruções abaixo para baixar e integrar os dados ao projeto.
-
-**Baixar dados pré-processados:**
-
-► [Download Pre-processed Data](#link-para-os-dados)
-
 ### Estrutura dos Dados
 
 Os dados estão organizados da seguinte forma:
