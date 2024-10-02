@@ -25,7 +25,7 @@ Os dados estão organizados da seguinte forma:
 
 ### Como Utilizar os Dados
 
-1. Faça o download dos dados pré-processados a partir do link fornecido.
+1. Faça o download dos dados.
 2. Extraia o conteúdo baixado na pasta `data` do projeto, garantindo que as pastas `male` e `female` estejam dentro da estrutura correta.
 3. Certifique-se de que o código está configurado para carregar os dados da pasta `data` durante o treinamento.
 
